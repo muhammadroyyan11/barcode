@@ -31,7 +31,7 @@
     }
 
     .print-label-box {
-        width: 125px;
+        width: 10px;
         padding: .25rem .25rem .25rem .5rem;
         display: flex;
         border-radius: .5rem;
@@ -41,7 +41,7 @@
     .print-label-left {
         flex-grow: 1;
         padding-right: .25rem;
-        width: 80%;
+        width: 0%;
         width: calc(100% - 1.5rem);
     }
 
@@ -488,7 +488,7 @@ $(document).ready(function () {
                 price = value.price;
 
             var container = $('<div class="col" style="padding:2mm"></div>');
-            var box = $('<div class="print-label-box" style="width:32mm;height:15mm;padding:1mm 1mm 1mm 2mm"></div>');
+            var box = $('<div class="print-label-box" style="width:29mm;height:10mm;padding:1mm 1mm 1mm 2mm"></div>');
 
             // Left Column
             var left = $('<div class="print-label-left" style="width: calc(100% - 5mm)"></div>');
@@ -544,7 +544,7 @@ $(document).ready(function () {
                 price = value.price;
 
             var container = $('<div class="col"></div>');
-            var box = $('<div class="print-label-box"></div>');
+            var box = $('<div class="`print-label-box`"></div>');
 
             // Left Column
             var left = $('<div class="print-label-left"></div>');
